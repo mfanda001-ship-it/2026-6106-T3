@@ -10,8 +10,8 @@ def index():
 def main():
     return(render_template("main.html"))
 
-@app.route("/transfer-money",methods=["GET","POST"])
-def transfer_money():
+@app.route("/transfermoney",methods=["GET","POST"])
+def transfermoney():
     return(render_template("transfermoney.html"))
 
 if __name__ == "__main__":
